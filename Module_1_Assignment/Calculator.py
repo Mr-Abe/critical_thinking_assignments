@@ -13,5 +13,10 @@ class Calculator():
         if b == 0:
             print('Dividing by 0 results in undefined.')
             return
+
+        remainder = a % b
+
+        if remainder == 0:
+            print(f'The result of dividing {a} by {b} is: {a // b}.')
         
-        print(f'The result of dividing {a} by {b} is: {a // b}.')
+        print(f'The result of dividing {a} by {b} is: {a // b} remainder {remainder}.')

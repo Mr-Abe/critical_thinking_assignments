@@ -12,13 +12,19 @@ executing the code from parts 1 and 2, the results and GIT repository in a singl
 '''
 
 if __name__ == '__main__':
-    num_1 = int(input('Enter the first whole number: '))
-    num_2 = int(input('Enter the second whole number: '))
+    print('Part 2 - Multiplication and Divison')
+    print('******************************************')
+    while True:
+        try:
+            num_1 = int(input('Enter the first whole number: '))
+            num_2 = int(input('Enter the second whole number: '))
+            break  # Exit the loop if input is valid
+        except ValueError:
+            print('Please enter numerical digits only, no letters or symbols.', end='\n\n')
 
     myCalculator = Calculator()
 
-    print('Part 2 - Multiplication and Divison')
-    print('******************************************')
+    
     myCalculator.multiply(num_1, num_2)
     myCalculator.divide(num_1, num_2)
     print('Thank you for using this calculator')
