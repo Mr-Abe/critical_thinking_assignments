@@ -10,7 +10,10 @@ The "principles_of_programming" critical thinking assignments are part of the CS
 
 This repository contains the following files:
 
-- `module_1_assignment.py`: The Python script for the Module 1 assignment.
+- `Module_1_Assignment/`
+  - `Calculator.py`: The Python script for the calculator class.
+  - `module_1_assignment_part_1.py`: The Python script for part 1 of the assignment.
+  - `module_1_assignment_part_2.py`: The Python script for part 2 of the assignment.
 - `README.md`: The README file for the project.
 
 
@@ -20,7 +23,8 @@ To get started with the project, follow these steps:
 
 1. Clone the repository to your local machine.
 2. Install the required dependencies.
-3. Run the individual Python scripts for each assignment.
+3. Navigate to the `Module_1_Assignment` folder.
+4. Run the individual Python scripts for each assignment.
 
 ## Contributing
 
