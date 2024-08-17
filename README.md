@@ -23,8 +23,8 @@ To get started with the project, follow these steps:
 
 1. Clone the repository to your local machine.
 2. Install the required dependencies.
-3. Navigate to the `Module_1_Assignment` folder.
-4. Run the individual Python scripts for each assignment.
+3. Navigate to the `Module_x_Assignment` folder `x` being the assignment number.
+4. Run the individual Python script.
 
 ## Contributing
 
