@@ -38,27 +38,38 @@ class Receipt():
         return total
     
     def printReceipt(self):
-        receipt = (f'Charge: ${self.total:.2f}\n'
-                   f'Tax: ${self.calcTax():.2f}\n'
-                   f'Tip: ${self.calcTip():.2f}\n'
-                   f'Total: ${self.calcTotal():.2f}\n')
+        receipt = (f'{'Charge:': <10} ${self.total:>5.2f}\n'
+                   f'{'Tax:': <10} ${self.calcTax():>5.2f}\n'
+                   f'{'Tip:': <10} ${self.calcTip():>5.2f}\n'
+                   f'{'Total:': <10} ${self.calcTotal():>5.2f}\n')
         print (receipt)
-    
+
+
+def clean_and_convert_input(user_input):
+    cleaned_input = user_input.replace('$', '').strip()
+    return float(cleaned_input)
+
+def validate_input(charge):
+    if charge < 0:
+        print(f'Charge cannot be negative, you gave: ${charge:.2f}!\n')
+        return False
+    return True
+
+def get_valid_charge():
+    while True:
+        user_input = input('Enter the charge: ')
+        try:
+            charge = clean_and_convert_input(user_input)
+            if validate_input(charge):
+                return charge
+        except ValueError:
+            print('Invalid entry, please provide a valid number!')
+
 
 if __name__ == '__main__':
-    invalid_entry = True
-    while invalid_entry:
-        try:
-            charge = int(input('Enter the charge: '))
-            if charge < 0:
-                print(f'Charge cannot be negative, you gave: ${charge:.2f}!\n')
-            else:
-                invalid_entry = False
-        except ValueError:
-            print('Invalid entry, please provide only numbers!')
-            
-    print('\n\n')
+
+    charge = get_valid_charge()
+    print('\n')
 
     receipt = Receipt(charge)
     receipt.printReceipt()
-    
