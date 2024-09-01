@@ -15,9 +15,9 @@ This repository contains the following files:
   - `module_1_assignment_part_1.py`: The Python script for part 1 of the assignment.
   - `module_1_assignment_part_2.py`: The Python script for part 2 of the assignment.
 - `Module_3_Assignment/`
-  - `Receipt.py`: The Python script that calculates the total amount of a meal, including tax and tip.
-  - `AlarmClock.py`: The Python script that calculates the time on a 24-hour clock when an alarm will go off after a certain number of hours (and minutes) from the current time.
-  - `Module_3_Assignment.docx`: The compiled document containing pseudocode, source code, screenshots of the application executing the code, and the results.
+  - `module_3_assignment_part_1.py`: The Python script that calculates the total amount of a meal, including tax and tip.
+  - `module_3_assignment_part_1.py`: The Python script that calculates the time on a 24-hour clock when an alarm will go off after a certain number of hours (and minutes) from the current time.
+  - `CTA_3.docx`: The compiled document containing pseudocode, source code, screenshots of the application executing the code, and the results.
 - `README.md`: The README file for the project.
 
 ## Getting Started
