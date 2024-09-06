@@ -14,8 +14,11 @@ This repository contains the following files:
   - `Calculator.py`: The Python script for the calculator class.
   - `module_1_assignment_part_1.py`: The Python script for part 1 of the assignment.
   - `module_1_assignment_part_2.py`: The Python script for part 2 of the assignment.
+- `Module_3_Assignment/`
+  - `module_3_assignment_part_1.py`: The Python script that calculates the total amount of a meal, including tax and tip.
+  - `module_3_assignment_part_1.py`: The Python script that calculates the time on a 24-hour clock when an alarm will go off after a certain number of hours (and minutes) from the current time.
+  - `CTA_3.docx`: The compiled document containing pseudocode, source code, screenshots of the application executing the code, and the results.
 - `README.md`: The README file for the project.
-
 
 ## Getting Started
 
@@ -23,7 +26,7 @@ To get started with the project, follow these steps:
 
 1. Clone the repository to your local machine.
 2. Install the required dependencies.
-3. Navigate to the `Module_x_Assignment` folder `x` being the assignment number.
+3. Navigate to the `Module_x_Assignment` folder (`x` being the assignment number).
 4. Run the individual Python script.
 
 ## Contributing
