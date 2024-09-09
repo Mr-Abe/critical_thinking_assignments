@@ -12,4 +12,12 @@ The points are awarded as follows:
 
 Write a program that asks the user to enter the number of books that they have purchased this month and then display the 
 number of points awarded.
+
+U
+M
+P
+I
+R
+E
 '''
+
