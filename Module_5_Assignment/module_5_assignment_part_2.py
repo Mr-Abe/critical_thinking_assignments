@@ -13,11 +13,37 @@ The points are awarded as follows:
 Write a program that asks the user to enter the number of books that they have purchased this month and then display the 
 number of points awarded.
 
-U
-M
-P
-I
-R
-E
+U - number of purchases converts to points gained by each customer
+M - Class customer with book_purchase attribute and points attribute.  with methods for book purchase that tracks points
+P - Use OOP and the appropriate principles, utilize the necessary operators and expressions that make sense.
 '''
+from Customer import Customer
+
+
+def get_purchase_count():
+    while True:
+        try:
+            purchases = int(input("Enter the number of books you purchased this month: "))
+
+            if purchases < 0:
+                print("Please enter a non-negative number.")
+            else:
+                return purchases
+        except ValueError:
+            print(f'{purchases} is invalid, please enter a numerical digit equal to or larger than zero: ') 
+
+
+def main():
+    
+    purchases = get_purchase_count()
+    
+    customer = Customer()
+    customer.update_purchases(purchases)
+    
+    
+    customer.display_points()
+
+
+if __name__ == "__main__":
+    main()
 

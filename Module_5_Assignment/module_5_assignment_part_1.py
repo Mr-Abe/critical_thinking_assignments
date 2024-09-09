@@ -17,11 +17,6 @@ U - two loops, outer loop end condition is based on user input.
                 total_inches_rain:
                 avg_rain_month:
 M - two for loops for calculating years.
-
-P
-I
-R
-E
 '''
 
 
