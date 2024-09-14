@@ -37,5 +37,5 @@ class Customer:
         if self.book_purchases < 0:
             print (f'Verify amount of books purchased and try again, you entered {self.book_purchases}.')
         else:
-            print(f"You purchased {self.book_purchases} books and earned {self.points} points.")
+            print(f"You purchased {self.book_purchases} books and earned {self.points} points this month.")
         

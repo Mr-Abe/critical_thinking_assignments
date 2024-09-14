@@ -10,7 +10,6 @@ def simulate_user_interaction():
     # Loop through each test case
     for books in test_cases:
         print("\n---\n")  # Print a divider for clarity in the output
-        print(f"Simulating purchase for {books} books:")
         try:
             customer.update_purchases(books)
             customer.display_points()
